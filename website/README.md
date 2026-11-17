@@ -15,4 +15,4 @@ It's plain HTML, CSS and JavaScript with no build step. Open `index.html` in a b
 Any static host works: upload the `website` folder as is.
 
 - **Netlify or Cloudflare Pages:** drag and drop the folder, or point it at this repo with `website` as the publish directory.
-- **GitHub Pages:** publish from a branch with the site at the root or in `/docs`.
+- **GitHub Pages (set up):** `.github/workflows/pages.yml` publishes this folder on every push that changes it. One-time setup: the repo must be public (or on a paid plan), then **Settings → Pages → Source: GitHub Actions**. The site is then at https://fishbeancurd.github.io/Pawgress/
